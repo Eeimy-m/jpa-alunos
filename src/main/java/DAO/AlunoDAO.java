@@ -22,7 +22,7 @@ public class AlunoDAO {
     }
 
     public void alterar(Aluno aluno) {
-
+        this.em.merge(aluno);
     }
 
     public Aluno procurarPorNome(String nome) throws NoResultException {

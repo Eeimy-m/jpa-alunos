@@ -55,4 +55,28 @@ public class Aluno {
     public BigDecimal getNota3() {
         return nota3;
     }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setRa(String ra) {
+        this.ra = ra;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setNota1(BigDecimal nota1) {
+        this.nota1 = nota1;
+    }
+
+    public void setNota2(BigDecimal nota2) {
+        this.nota2 = nota2;
+    }
+
+    public void setNota3(BigDecimal nota3) {
+        this.nota3 = nota3;
+    }
 }
