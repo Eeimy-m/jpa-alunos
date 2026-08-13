@@ -12,7 +12,7 @@ public class Main {
             System.out.println("2 - Excluir Aluno");
             System.out.println("3 - Alterar Aluno");
             System.out.println("4 - Buscar Aluno Pelo Nome");
-            System.out.println("5 - Listar Alunos");
+            System.out.println("5 - Listar Alunos Aprovados");
             System.out.println("6 - FIM");
 
             opcao = scanner.nextInt();
